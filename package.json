@@ -1,0 +1,24 @@
+{
+  "name": "fraise-voice-assistant",
+  "version": "1.0.0",
+  "description": "Original, portfolio-ready AI personal voice assistant inspired by Fraise AI",
+  "private": true,
+  "scripts": {
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && python -m uvicorn main:app --reload --port 8000",
+    "build:frontend": "cd frontend && npm run build",
+    "test:backend": "cd backend && python -m pytest tests -v",
+    "setup": "npm --prefix frontend install"
+  },
+  "keywords": [
+    "ai",
+    "voice-assistant",
+    "fastapi",
+    "react19",
+    "typescript",
+    "gemini",
+    "portfolio"
+  ],
+  "author": "FraiseAI Contributor",
+  "license": "MIT"
+}
