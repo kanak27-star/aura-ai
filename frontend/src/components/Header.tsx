@@ -1,3 +1,4 @@
+
 import React from 'react';
 import {
   ExternalLink,
@@ -28,6 +29,9 @@ export const Header: React.FC<HeaderProps> = ({
     tasks: 'Actionable Tasks',
     notes: 'Notes & Dictations',
     settings: 'Assistant Preferences',
+    planner: 'Planner',
+    search: 'Search',
+    documents: 'Documents',
   };
 
   return (
@@ -75,7 +79,6 @@ export const Header: React.FC<HeaderProps> = ({
           />
           <span>{speechSupported ? 'Voice Ready' : 'Text Mode'}</span>
         </div>
-
 
         {/* GitHub link */}
         <a
