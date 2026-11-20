@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Aura AI — Personal Executive Voice Assistant
 
 [![Frontend](https://img.shields.io/badge/Frontend-React%2019%20%7C%20TypeScript%20%7C%20Vite%20%7C%20TailwindCSS-blue.svg)](https://react.dev/)
@@ -191,3 +192,6 @@ Tests verify:
 
 ## 📄 License
 This project is open-source and available under the [MIT License](LICENSE).
+=======
+# aura-ai
+>>>>>>> 7929235e2c0bb6cbd54e4f383aeb1692fc320973
