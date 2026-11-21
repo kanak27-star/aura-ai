@@ -1,0 +1,28 @@
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: aura-backend
+    env_file:
+      - ./backend/.env
+    environment:
+      DATABASE_URL: sqlite:////data/voice_assistant.db
+    volumes:
+      - aura_data:/data
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: aura-frontend
+    ports:
+      - "8081:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+volumes:
+  aura_data:
