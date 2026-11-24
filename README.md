@@ -8,7 +8,7 @@
 > **"Say your day. It's handled."**  
 > Aura is a personal executive voice assistant designed to simplify everyday productivity through natural voice interactions. It transforms unstructured instructions into organized tasks, calendar events, emails, research items, reminders, and notes—all within a unified workspace.
 
-<escape>**Live Application:** </escape>[https://aura-frontend-tddt.onrender.com/](https://aura-frontend-tddt.onrender.com/)
+**Live Application:** [https://aura-frontend-tddt.onrender.com/](https://aura-frontend-tddt.onrender.com/)
 
 **Source Code:** [GitHub Repository](https://github.com/kanak27-star/aura-ai)
 
@@ -220,6 +220,14 @@ The test suite covers:
 - **Request Validation:** Pydantic models validate request payloads, input lengths, and required fields.
 - **Error Handling:** Network failures and API quota limitations are handled through retry logic and user-facing error messages.
 - **Environment Configuration:** Sensitive configuration values are managed through environment variables and excluded from version control.
+
+---
+
+## 🚀 Deployment & DevOps
+
+- **Docker:** Containerized the application for consistent deployment environments.
+- **Kubernetes:** Used Kubernetes configuration files for container orchestration and deployment.
+- **CI/CD:** GitHub Actions for workflow automation.
 
 ---
 
